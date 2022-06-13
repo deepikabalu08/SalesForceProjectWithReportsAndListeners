@@ -1,0 +1,269 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>38/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 12 01:07:25 PDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>657 seconds (657763 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.salesforce.automation.SDFCLogin.LoginToSalesForce()'><b>LoginToSalesForce</b><br>Test class: com.salesforce.automation.SDFCLogin</td>
+<td></td>
+<td>4</td>
+<td>com.salesforce.automation.SDFCLogin@2a798d51</td></tr>
+<tr>
+<td title='com.salesforce.automation.CreateAccount.CreateAccountReport()'><b>CreateAccountReport</b><br>Test class: com.salesforce.automation.CreateAccount</td>
+<td></td>
+<td>12</td>
+<td>com.salesforce.automation.CreateAccount@3febb011</td></tr>
+<tr>
+<td title='com.salesforce.automation.SDFCLogin.ForgetPasswordB()'><b>ForgetPasswordB</b><br>Test class: com.salesforce.automation.SDFCLogin</td>
+<td></td>
+<td>0</td>
+<td>com.salesforce.automation.SDFCLogin@2a798d51</td></tr>
+<tr>
+<td title='com.salesforce.automation.RandomScenarios.WeeklyReccurance()'><b>WeeklyReccurance</b><br>Test class: com.salesforce.automation.RandomScenarios</td>
+<td></td>
+<td>22</td>
+<td>com.salesforce.automation.RandomScenarios@7f3b84b8</td></tr>
+<tr>
+<td title='com.salesforce.automation.Leads.LeadsSelectView()'><b>LeadsSelectView</b><br>Test class: com.salesforce.automation.Leads</td>
+<td></td>
+<td>0</td>
+<td>com.salesforce.automation.Leads@158d2680</td></tr>
+<tr>
+<td title='com.salesforce.automation.CreateOpportunity.CreateNewOpportunity()'><b>CreateNewOpportunity</b><br>Test class: com.salesforce.automation.CreateOpportunity</td>
+<td></td>
+<td>1</td>
+<td>com.salesforce.automation.CreateOpportunity@131774fe</td></tr>
+<tr>
+<td title='com.salesforce.automation.Leads.NewButton()'><b>NewButton</b><br>Test class: com.salesforce.automation.Leads</td>
+<td></td>
+<td>2</td>
+<td>com.salesforce.automation.Leads@158d2680</td></tr>
+<tr>
+<td title='com.salesforce.automation.RandomScenarios.VerifyFirstNameAndLastName()'><b>VerifyFirstNameAndLastName</b><br>Test class: com.salesforce.automation.RandomScenarios</td>
+<td></td>
+<td>15</td>
+<td>com.salesforce.automation.RandomScenarios@7f3b84b8</td></tr>
+<tr>
+<td title='com.salesforce.automation.SDFCLogin.CheckRememberMe()'><b>CheckRememberMe</b><br>Test class: com.salesforce.automation.SDFCLogin</td>
+<td></td>
+<td>4</td>
+<td>com.salesforce.automation.SDFCLogin@2a798d51</td></tr>
+<tr>
+<td title='com.salesforce.automation.Contacts.CheckRecentlyCreatedContact()'><b>CheckRecentlyCreatedContact</b><br>Test class: com.salesforce.automation.Contacts</td>
+<td></td>
+<td>0</td>
+<td>com.salesforce.automation.Contacts@77847718</td></tr>
+<tr>
+<td title='com.salesforce.automation.CreateOpportunity.TestOpportunityPipelineReport()'><b>TestOpportunityPipelineReport</b><br>Test class: com.salesforce.automation.CreateOpportunity</td>
+<td></td>
+<td>0</td>
+<td>com.salesforce.automation.CreateOpportunity@131774fe</td></tr>
+<tr>
+<td title='com.salesforce.automation.UserMenuDropDown.LogoutUserMenu()'><b>LogoutUserMenu</b><br>Test class: com.salesforce.automation.UserMenuDropDown</td>
+<td></td>
+<td>0</td>
+<td>com.salesforce.automation.UserMenuDropDown@16293aa2</td></tr>
+<tr>
+<td title='com.salesforce.automation.Contacts.ViewAContact()'><b>ViewAContact</b><br>Test class: com.salesforce.automation.Contacts</td>
+<td></td>
+<td>0</td>
+<td>com.salesforce.automation.Contacts@77847718</td></tr>
+<tr>
+<td title='com.salesforce.automation.RandomScenarios.BlockingAnEventInCalendar()'><b>BlockingAnEventInCalendar</b><br>Test class: com.salesforce.automation.RandomScenarios</td>
+<td></td>
+<td>22</td>
+<td>com.salesforce.automation.RandomScenarios@7f3b84b8</td></tr>
+<tr>
+<td title='com.salesforce.automation.Leads.TodaysLeads()'><b>TodaysLeads</b><br>Test class: com.salesforce.automation.Leads</td>
+<td></td>
+<td>0</td>
+<td>com.salesforce.automation.Leads@158d2680</td></tr>
+<tr>
+<td title='com.salesforce.automation.RandomScenarios.VerifyEditedLastName()'><b>VerifyEditedLastName</b><br>Test class: com.salesforce.automation.RandomScenarios</td>
+<td></td>
+<td>17</td>
+<td>com.salesforce.automation.RandomScenarios@7f3b84b8</td></tr>
+<tr>
+<td title='com.salesforce.automation.UserMenuDropDown.MySettings()'><b>MySettings</b><br>Test class: com.salesforce.automation.UserMenuDropDown</td>
+<td></td>
+<td>3</td>
+<td>com.salesforce.automation.UserMenuDropDown@16293aa2</td></tr>
+<tr>
+<td title='com.salesforce.automation.SDFCLogin.ForgetPasswordA()'><b>ForgetPasswordA</b><br>Test class: com.salesforce.automation.SDFCLogin</td>
+<td></td>
+<td>0</td>
+<td>com.salesforce.automation.SDFCLogin@2a798d51</td></tr>
+<tr>
+<td title='com.salesforce.automation.CreateOpportunity.TestStuckOpportunitiesReport()'><b>TestStuckOpportunitiesReport</b><br>Test class: com.salesforce.automation.CreateOpportunity</td>
+<td></td>
+<td>0</td>
+<td>com.salesforce.automation.CreateOpportunity@131774fe</td></tr>
+<tr>
+<td title='com.salesforce.automation.CreateOpportunity.UserMenuDropDown()'><b>UserMenuDropDown</b><br>Test class: com.salesforce.automation.CreateOpportunity</td>
+<td></td>
+<td>0</td>
+<td>com.salesforce.automation.CreateOpportunity@131774fe</td></tr>
+<tr>
+<td title='com.salesforce.automation.SDFCLogin.LoginErrorMessage()'><b>LoginErrorMessage</b><br>Test class: com.salesforce.automation.SDFCLogin</td>
+<td></td>
+<td>1</td>
+<td>com.salesforce.automation.SDFCLogin@2a798d51</td></tr>
+<tr>
+<td title='com.salesforce.automation.Leads.DefaultView()'><b>DefaultView</b><br>Test class: com.salesforce.automation.Leads</td>
+<td></td>
+<td>12</td>
+<td>com.salesforce.automation.Leads@158d2680</td></tr>
+<tr>
+<td title='com.salesforce.automation.CreateAccount.CreateAnAccount()'><b>CreateAnAccount</b><br>Test class: com.salesforce.automation.CreateAccount</td>
+<td></td>
+<td>2</td>
+<td>com.salesforce.automation.CreateAccount@3febb011</td></tr>
+<tr>
+<td title='com.salesforce.automation.CreateOpportunity.TestQuaterlySummaryReport()'><b>TestQuaterlySummaryReport</b><br>Test class: com.salesforce.automation.CreateOpportunity</td>
+<td></td>
+<td>0</td>
+<td>com.salesforce.automation.CreateOpportunity@131774fe</td></tr>
+<tr>
+<td title='com.salesforce.automation.UserMenuDropDown.MyProfile()'><b>MyProfile</b><br>Test class: com.salesforce.automation.UserMenuDropDown</td>
+<td></td>
+<td>60</td>
+<td>com.salesforce.automation.UserMenuDropDown@16293aa2</td></tr>
+<tr>
+<td title='com.salesforce.automation.CreateAccount.EditView()'><b>EditView</b><br>Test class: com.salesforce.automation.CreateAccount</td>
+<td></td>
+<td>2</td>
+<td>com.salesforce.automation.CreateAccount@3febb011</td></tr>
+<tr>
+<td title='com.salesforce.automation.Contacts.CheckSaveAndNewButton()'><b>CheckSaveAndNewButton</b><br>Test class: com.salesforce.automation.Contacts</td>
+<td></td>
+<td>1</td>
+<td>com.salesforce.automation.Contacts@77847718</td></tr>
+<tr>
+<td title='com.salesforce.automation.Contacts.MyContactsView()'><b>MyContactsView</b><br>Test class: com.salesforce.automation.Contacts</td>
+<td></td>
+<td>5</td>
+<td>com.salesforce.automation.Contacts@77847718</td></tr>
+<tr>
+<td title='com.salesforce.automation.RandomScenarios.VerifyTabCustomization()'><b>VerifyTabCustomization</b><br>Test class: com.salesforce.automation.RandomScenarios</td>
+<td></td>
+<td>10</td>
+<td>com.salesforce.automation.RandomScenarios@7f3b84b8</td></tr>
+<tr>
+<td title='com.salesforce.automation.Leads.LeadsTab()'><b>LeadsTab</b><br>Test class: com.salesforce.automation.Leads</td>
+<td></td>
+<td>0</td>
+<td>com.salesforce.automation.Leads@158d2680</td></tr>
+<tr>
+<td title='com.salesforce.automation.Contacts.CheckErrorMessage()'><b>CheckErrorMessage</b><br>Test class: com.salesforce.automation.Contacts</td>
+<td></td>
+<td>1</td>
+<td>com.salesforce.automation.Contacts@77847718</td></tr>
+<tr>
+<td title='com.salesforce.automation.Contacts.CreateNewView()'><b>CreateNewView</b><br>Test class: com.salesforce.automation.Contacts</td>
+<td></td>
+<td>1</td>
+<td>com.salesforce.automation.Contacts@77847718</td></tr>
+<tr>
+<td title='com.salesforce.automation.CreateAccount.MergeAccounts()'><b>MergeAccounts</b><br>Test class: com.salesforce.automation.CreateAccount</td>
+<td></td>
+<td>5</td>
+<td>com.salesforce.automation.CreateAccount@3febb011</td></tr>
+<tr>
+<td title='com.salesforce.automation.UserMenuDropDown.DevelopersConsole()'><b>DevelopersConsole</b><br>Test class: com.salesforce.automation.UserMenuDropDown</td>
+<td></td>
+<td>0</td>
+<td>com.salesforce.automation.UserMenuDropDown@16293aa2</td></tr>
+<tr>
+<td title='com.salesforce.automation.Contacts.CheckCancelbutton()'><b>CheckCancelbutton</b><br>Test class: com.salesforce.automation.Contacts</td>
+<td></td>
+<td>1</td>
+<td>com.salesforce.automation.Contacts@77847718</td></tr>
+<tr>
+<td title='com.salesforce.automation.CreateAccount.CreateNewView()'><b>CreateNewView</b><br>Test class: com.salesforce.automation.CreateAccount</td>
+<td></td>
+<td>1</td>
+<td>com.salesforce.automation.CreateAccount@3febb011</td></tr>
+<tr>
+<td title='com.salesforce.automation.UserMenuDropDown.UserMenu()'><b>UserMenu</b><br>Test class: com.salesforce.automation.UserMenuDropDown</td>
+<td></td>
+<td>0</td>
+<td>com.salesforce.automation.UserMenuDropDown@16293aa2</td></tr>
+<tr>
+<td title='com.salesforce.automation.Contacts.CreateNewContact()'><b>CreateNewContact</b><br>Test class: com.salesforce.automation.Contacts</td>
+<td></td>
+<td>1</td>
+<td>com.salesforce.automation.Contacts@77847718</td></tr>
+</table><p>
+</body>
+</html>

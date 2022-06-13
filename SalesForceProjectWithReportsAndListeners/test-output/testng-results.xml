@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="50" passed="38" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-12T01:07:25 PDT" name="Suite" finished-at="2022-06-12T01:18:23 PDT" duration-ms="657763">
+    <groups>
+    </groups>
+    <test started-at="2022-06-12T01:07:25 PDT" name="Test" finished-at="2022-06-12T01:18:23 PDT" duration-ms="657763">
+      <class name="com.salesforce.automation.Leads">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:12:34 PDT" name="setup" finished-at="2022-06-12T01:12:35 PDT" duration-ms="1548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.Leads.DefaultView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupLeads()[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:12:35 PDT" name="setupLeads" finished-at="2022-06-12T01:12:51 PDT" duration-ms="16110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLeads -->
+        <test-method signature="DefaultView()[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:12:51 PDT" name="DefaultView" finished-at="2022-06-12T01:13:04 PDT" duration-ms="12254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultView -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:13:04 PDT" name="tearDown" finished-at="2022-06-12T01:13:04 PDT" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:13:04 PDT" name="setup" finished-at="2022-06-12T01:13:05 PDT" duration-ms="1600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.Leads.LeadsSelectView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupLeads()[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:13:05 PDT" name="setupLeads" finished-at="2022-06-12T01:13:22 PDT" duration-ms="16385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLeads -->
+        <test-method signature="LeadsSelectView()[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:13:22 PDT" name="LeadsSelectView" finished-at="2022-06-12T01:13:22 PDT" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeadsSelectView -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:13:22 PDT" name="tearDown" finished-at="2022-06-12T01:13:22 PDT" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:13:22 PDT" name="setup" finished-at="2022-06-12T01:13:24 PDT" duration-ms="1679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.Leads.LeadsTab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupLeads()[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:13:24 PDT" name="setupLeads" finished-at="2022-06-12T01:13:41 PDT" duration-ms="16701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLeads -->
+        <test-method signature="LeadsTab()[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:13:41 PDT" name="LeadsTab" finished-at="2022-06-12T01:13:41 PDT" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeadsTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:13:41 PDT" name="tearDown" finished-at="2022-06-12T01:13:41 PDT" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:13:41 PDT" name="setup" finished-at="2022-06-12T01:13:43 PDT" duration-ms="1545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.Leads.NewButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupLeads()[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:13:43 PDT" name="setupLeads" finished-at="2022-06-12T01:13:59 PDT" duration-ms="15880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLeads -->
+        <test-method signature="NewButton()[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:13:59 PDT" name="NewButton" finished-at="2022-06-12T01:14:01 PDT" duration-ms="2308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:14:01 PDT" name="tearDown" finished-at="2022-06-12T01:14:01 PDT" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:14:01 PDT" name="setup" finished-at="2022-06-12T01:14:03 PDT" duration-ms="1602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.Leads.TodaysLeads() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupLeads()[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:14:03 PDT" name="setupLeads" finished-at="2022-06-12T01:14:17 PDT" duration-ms="14482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLeads -->
+        <test-method signature="TodaysLeads()[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:14:17 PDT" name="TodaysLeads" finished-at="2022-06-12T01:14:17 PDT" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TodaysLeads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.Leads@158d2680]" started-at="2022-06-12T01:14:17 PDT" name="tearDown" finished-at="2022-06-12T01:14:17 PDT" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.automation.Leads -->
+      <class name="com.salesforce.automation.Contacts">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:14:17 PDT" name="setup" finished-at="2022-06-12T01:14:19 PDT" duration-ms="1547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.Contacts.CheckCancelbutton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupContacts()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:14:19 PDT" name="setupContacts" finished-at="2022-06-12T01:14:34 PDT" duration-ms="14797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupContacts -->
+        <test-method signature="CheckCancelbutton()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:14:34 PDT" name="CheckCancelbutton" finished-at="2022-06-12T01:14:35 PDT" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCancelbutton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:14:35 PDT" name="tearDown" finished-at="2022-06-12T01:14:35 PDT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:14:35 PDT" name="setup" finished-at="2022-06-12T01:14:37 PDT" duration-ms="1513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.Contacts.CheckErrorMessage() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupContacts()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:14:37 PDT" name="setupContacts" finished-at="2022-06-12T01:14:52 PDT" duration-ms="15575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupContacts -->
+        <test-method signature="CheckErrorMessage()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:14:52 PDT" name="CheckErrorMessage" finished-at="2022-06-12T01:14:53 PDT" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckErrorMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:14:53 PDT" name="tearDown" finished-at="2022-06-12T01:14:54 PDT" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:14:54 PDT" name="setup" finished-at="2022-06-12T01:14:55 PDT" duration-ms="1521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.Contacts.CheckRecentlyCreatedContact() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupContacts()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:14:55 PDT" name="setupContacts" finished-at="2022-06-12T01:15:10 PDT" duration-ms="14666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupContacts -->
+        <test-method signature="CheckRecentlyCreatedContact()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:15:10 PDT" name="CheckRecentlyCreatedContact" finished-at="2022-06-12T01:15:10 PDT" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckRecentlyCreatedContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:15:10 PDT" name="tearDown" finished-at="2022-06-12T01:15:10 PDT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:15:10 PDT" name="setup" finished-at="2022-06-12T01:15:12 PDT" duration-ms="1557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.Contacts.CheckSaveAndNewButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupContacts()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:15:12 PDT" name="setupContacts" finished-at="2022-06-12T01:15:26 PDT" duration-ms="14265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupContacts -->
+        <test-method signature="CheckSaveAndNewButton()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:15:26 PDT" name="CheckSaveAndNewButton" finished-at="2022-06-12T01:15:27 PDT" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSaveAndNewButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:15:27 PDT" name="tearDown" finished-at="2022-06-12T01:15:27 PDT" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:15:27 PDT" name="setup" finished-at="2022-06-12T01:15:29 PDT" duration-ms="1544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.Contacts.CreateNewContact() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupContacts()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:15:29 PDT" name="setupContacts" finished-at="2022-06-12T01:15:43 PDT" duration-ms="14491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupContacts -->
+        <test-method signature="CreateNewContact()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:15:43 PDT" name="CreateNewContact" finished-at="2022-06-12T01:15:44 PDT" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:15:44 PDT" name="tearDown" finished-at="2022-06-12T01:15:44 PDT" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:15:44 PDT" name="setup" finished-at="2022-06-12T01:15:46 PDT" duration-ms="1534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.Contacts.CreateNewView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupContacts()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:15:46 PDT" name="setupContacts" finished-at="2022-06-12T01:16:01 PDT" duration-ms="15218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupContacts -->
+        <test-method signature="CreateNewView()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:16:01 PDT" name="CreateNewView" finished-at="2022-06-12T01:16:03 PDT" duration-ms="1582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewView -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:16:03 PDT" name="tearDown" finished-at="2022-06-12T01:16:03 PDT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:16:03 PDT" name="setup" finished-at="2022-06-12T01:16:05 PDT" duration-ms="1598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.Contacts.MyContactsView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupContacts()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:16:05 PDT" name="setupContacts" finished-at="2022-06-12T01:16:19 PDT" duration-ms="14236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupContacts -->
+        <test-method signature="MyContactsView()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:16:19 PDT" name="MyContactsView" finished-at="2022-06-12T01:16:24 PDT" duration-ms="5691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyContactsView -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:16:24 PDT" name="tearDown" finished-at="2022-06-12T01:16:25 PDT" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:16:25 PDT" name="setup" finished-at="2022-06-12T01:16:26 PDT" duration-ms="1546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.Contacts.ViewAContact() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupContacts()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:16:26 PDT" name="setupContacts" finished-at="2022-06-12T01:16:41 PDT" duration-ms="14450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupContacts -->
+        <test-method signature="ViewAContact()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:16:41 PDT" name="ViewAContact" finished-at="2022-06-12T01:16:41 PDT" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewAContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.Contacts@77847718]" started-at="2022-06-12T01:16:41 PDT" name="tearDown" finished-at="2022-06-12T01:16:41 PDT" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.automation.Contacts -->
+      <class name="com.salesforce.automation.SDFCLogin">
+        <test-method is-config="true" signature="initialSetUp()[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:26 PDT" name="initialSetUp" finished-at="2022-06-12T01:07:26 PDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:26 PDT" name="setup" finished-at="2022-06-12T01:07:28 PDT" duration-ms="2073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.SDFCLogin.CheckRememberMe() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CheckRememberMe()[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:28 PDT" name="CheckRememberMe" finished-at="2022-06-12T01:07:32 PDT" duration-ms="4797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckRememberMe -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:32 PDT" name="tearDown" finished-at="2022-06-12T01:07:33 PDT" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:33 PDT" name="setup" finished-at="2022-06-12T01:07:34 PDT" duration-ms="1530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.SDFCLogin.ForgetPasswordA()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ForgetPasswordA()[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:34 PDT" name="ForgetPasswordA" finished-at="2022-06-12T01:07:35 PDT" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPasswordA -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:35 PDT" name="tearDown" finished-at="2022-06-12T01:07:35 PDT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:35 PDT" name="setup" finished-at="2022-06-12T01:07:37 PDT" duration-ms="1663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.SDFCLogin.ForgetPasswordB()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ForgetPasswordB()[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:37 PDT" name="ForgetPasswordB" finished-at="2022-06-12T01:07:37 PDT" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPasswordB -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:37 PDT" name="tearDown" finished-at="2022-06-12T01:07:37 PDT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:37 PDT" name="setup" finished-at="2022-06-12T01:07:39 PDT" duration-ms="1596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.SDFCLogin.LoginErrorMessage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginErrorMessage()[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:39 PDT" name="LoginErrorMessage" finished-at="2022-06-12T01:07:40 PDT" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:40 PDT" name="tearDown" finished-at="2022-06-12T01:07:40 PDT" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:40 PDT" name="setup" finished-at="2022-06-12T01:07:42 PDT" duration-ms="1568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.SDFCLogin.LoginToSalesForce() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginToSalesForce()[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:42 PDT" name="LoginToSalesForce" finished-at="2022-06-12T01:07:46 PDT" duration-ms="4093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToSalesForce -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:07:46 PDT" name="tearDown" finished-at="2022-06-12T01:07:46 PDT" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="finalTearDown()[pri:0, instance:com.salesforce.automation.SDFCLogin@2a798d51]" started-at="2022-06-12T01:18:23 PDT" name="finalTearDown" finished-at="2022-06-12T01:18:23 PDT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalTearDown -->
+      </class> <!-- com.salesforce.automation.SDFCLogin -->
+      <class name="com.salesforce.automation.CreateAccount">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:09:20 PDT" name="setup" finished-at="2022-06-12T01:09:21 PDT" duration-ms="1607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.CreateAccount.CreateAccountReport() throws java.lang.InterruptedException,java.awt.AWTException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupCreateAccount()[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:09:21 PDT" name="setupCreateAccount" finished-at="2022-06-12T01:09:36 PDT" duration-ms="14375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCreateAccount -->
+        <test-method signature="CreateAccountReport()[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:09:36 PDT" name="CreateAccountReport" finished-at="2022-06-12T01:09:48 PDT" duration-ms="12552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccountReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:09:48 PDT" name="tearDown" finished-at="2022-06-12T01:09:48 PDT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:09:48 PDT" name="setup" finished-at="2022-06-12T01:09:50 PDT" duration-ms="1618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.CreateAccount.CreateAnAccount() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupCreateAccount()[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:09:50 PDT" name="setupCreateAccount" finished-at="2022-06-12T01:10:05 PDT" duration-ms="14823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCreateAccount -->
+        <test-method signature="CreateAnAccount()[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:10:05 PDT" name="CreateAnAccount" finished-at="2022-06-12T01:10:07 PDT" duration-ms="2403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAnAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:10:07 PDT" name="tearDown" finished-at="2022-06-12T01:10:07 PDT" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:10:07 PDT" name="setup" finished-at="2022-06-12T01:10:09 PDT" duration-ms="1972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.CreateAccount.CreateNewView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupCreateAccount()[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:10:09 PDT" name="setupCreateAccount" finished-at="2022-06-12T01:10:24 PDT" duration-ms="14323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCreateAccount -->
+        <test-method signature="CreateNewView()[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:10:24 PDT" name="CreateNewView" finished-at="2022-06-12T01:10:25 PDT" duration-ms="1624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewView -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:10:25 PDT" name="tearDown" finished-at="2022-06-12T01:10:25 PDT" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:10:25 PDT" name="setup" finished-at="2022-06-12T01:10:27 PDT" duration-ms="1533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.CreateAccount.EditView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupCreateAccount()[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:10:27 PDT" name="setupCreateAccount" finished-at="2022-06-12T01:10:41 PDT" duration-ms="14434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCreateAccount -->
+        <test-method signature="EditView()[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:10:41 PDT" name="EditView" finished-at="2022-06-12T01:10:43 PDT" duration-ms="2004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditView -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:10:43 PDT" name="tearDown" finished-at="2022-06-12T01:10:44 PDT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:10:44 PDT" name="setup" finished-at="2022-06-12T01:10:45 PDT" duration-ms="1571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.CreateAccount.MergeAccounts() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupCreateAccount()[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:10:45 PDT" name="setupCreateAccount" finished-at="2022-06-12T01:10:59 PDT" duration-ms="14126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCreateAccount -->
+        <test-method signature="MergeAccounts()[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:10:59 PDT" name="MergeAccounts" finished-at="2022-06-12T01:11:04 PDT" duration-ms="5200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MergeAccounts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.CreateAccount@3febb011]" started-at="2022-06-12T01:11:04 PDT" name="tearDown" finished-at="2022-06-12T01:11:05 PDT" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.automation.CreateAccount -->
+      <class name="com.salesforce.automation.RandomScenarios">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:16:41 PDT" name="setup" finished-at="2022-06-12T01:16:42 PDT" duration-ms="1670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.RandomScenarios.BlockingAnEventInCalendar() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupRandomScenarios()[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:16:42 PDT" name="setupRandomScenarios" finished-at="2022-06-12T01:16:43 PDT" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRandomScenarios -->
+        <test-method signature="BlockingAnEventInCalendar()[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:16:43 PDT" name="BlockingAnEventInCalendar" finished-at="2022-06-12T01:17:05 PDT" duration-ms="22073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlockingAnEventInCalendar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:17:05 PDT" name="tearDown" finished-at="2022-06-12T01:17:05 PDT" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:17:05 PDT" name="setup" finished-at="2022-06-12T01:17:07 PDT" duration-ms="1635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.RandomScenarios.VerifyEditedLastName() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupRandomScenarios()[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:17:07 PDT" name="setupRandomScenarios" finished-at="2022-06-12T01:17:09 PDT" duration-ms="1976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRandomScenarios -->
+        <test-method signature="VerifyEditedLastName()[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:17:09 PDT" name="VerifyEditedLastName" finished-at="2022-06-12T01:17:26 PDT" duration-ms="17106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditedLastName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:17:26 PDT" name="tearDown" finished-at="2022-06-12T01:17:26 PDT" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:17:26 PDT" name="setup" finished-at="2022-06-12T01:17:27 PDT" duration-ms="1535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.RandomScenarios.VerifyFirstNameAndLastName() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupRandomScenarios()[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:17:27 PDT" name="setupRandomScenarios" finished-at="2022-06-12T01:17:29 PDT" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRandomScenarios -->
+        <test-method signature="VerifyFirstNameAndLastName()[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:17:29 PDT" name="VerifyFirstNameAndLastName" finished-at="2022-06-12T01:17:44 PDT" duration-ms="15069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFirstNameAndLastName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:17:44 PDT" name="tearDown" finished-at="2022-06-12T01:17:44 PDT" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:17:44 PDT" name="setup" finished-at="2022-06-12T01:17:46 PDT" duration-ms="1601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.RandomScenarios.VerifyTabCustomization() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupRandomScenarios()[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:17:46 PDT" name="setupRandomScenarios" finished-at="2022-06-12T01:17:46 PDT" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRandomScenarios -->
+        <test-method signature="VerifyTabCustomization()[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:17:46 PDT" name="VerifyTabCustomization" finished-at="2022-06-12T01:17:57 PDT" duration-ms="10393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTabCustomization -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:17:57 PDT" name="tearDown" finished-at="2022-06-12T01:17:57 PDT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:17:57 PDT" name="setup" finished-at="2022-06-12T01:17:58 PDT" duration-ms="1662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.RandomScenarios.WeeklyReccurance() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupRandomScenarios()[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:17:58 PDT" name="setupRandomScenarios" finished-at="2022-06-12T01:18:00 PDT" duration-ms="1584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRandomScenarios -->
+        <test-method signature="WeeklyReccurance()[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:18:00 PDT" name="WeeklyReccurance" finished-at="2022-06-12T01:18:23 PDT" duration-ms="22824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WeeklyReccurance -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.RandomScenarios@7f3b84b8]" started-at="2022-06-12T01:18:23 PDT" name="tearDown" finished-at="2022-06-12T01:18:23 PDT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.automation.RandomScenarios -->
+      <class name="com.salesforce.automation.CreateOpportunity">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:11:05 PDT" name="setup" finished-at="2022-06-12T01:11:06 PDT" duration-ms="1570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.CreateOpportunity.CreateNewOpportunity() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupCreateOpportunity()[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:11:06 PDT" name="setupCreateOpportunity" finished-at="2022-06-12T01:11:20 PDT" duration-ms="14277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCreateOpportunity -->
+        <test-method signature="CreateNewOpportunity()[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:11:20 PDT" name="CreateNewOpportunity" finished-at="2022-06-12T01:11:22 PDT" duration-ms="1535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewOpportunity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:11:22 PDT" name="tearDown" finished-at="2022-06-12T01:11:22 PDT" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:11:22 PDT" name="setup" finished-at="2022-06-12T01:11:24 PDT" duration-ms="1548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.CreateOpportunity.TestOpportunityPipelineReport() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupCreateOpportunity()[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:11:24 PDT" name="setupCreateOpportunity" finished-at="2022-06-12T01:11:38 PDT" duration-ms="14412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCreateOpportunity -->
+        <test-method signature="TestOpportunityPipelineReport()[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:11:38 PDT" name="TestOpportunityPipelineReport" finished-at="2022-06-12T01:11:39 PDT" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOpportunityPipelineReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:11:39 PDT" name="tearDown" finished-at="2022-06-12T01:11:39 PDT" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:11:39 PDT" name="setup" finished-at="2022-06-12T01:11:40 PDT" duration-ms="1609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.CreateOpportunity.TestQuaterlySummaryReport() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupCreateOpportunity()[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:11:40 PDT" name="setupCreateOpportunity" finished-at="2022-06-12T01:11:55 PDT" duration-ms="14503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCreateOpportunity -->
+        <test-method signature="TestQuaterlySummaryReport()[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:11:55 PDT" name="TestQuaterlySummaryReport" finished-at="2022-06-12T01:11:56 PDT" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestQuaterlySummaryReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:11:56 PDT" name="tearDown" finished-at="2022-06-12T01:11:56 PDT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:11:56 PDT" name="setup" finished-at="2022-06-12T01:11:57 PDT" duration-ms="1665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.CreateOpportunity.TestStuckOpportunitiesReport() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupCreateOpportunity()[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:11:57 PDT" name="setupCreateOpportunity" finished-at="2022-06-12T01:12:12 PDT" duration-ms="14973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCreateOpportunity -->
+        <test-method signature="TestStuckOpportunitiesReport()[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:12:12 PDT" name="TestStuckOpportunitiesReport" finished-at="2022-06-12T01:12:13 PDT" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStuckOpportunitiesReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:12:13 PDT" name="tearDown" finished-at="2022-06-12T01:12:13 PDT" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:12:13 PDT" name="setup" finished-at="2022-06-12T01:12:15 PDT" duration-ms="1639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.CreateOpportunity.UserMenuDropDown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupCreateOpportunity()[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:12:15 PDT" name="setupCreateOpportunity" finished-at="2022-06-12T01:12:33 PDT" duration-ms="18383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCreateOpportunity -->
+        <test-method signature="UserMenuDropDown()[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:12:33 PDT" name="UserMenuDropDown" finished-at="2022-06-12T01:12:34 PDT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserMenuDropDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.CreateOpportunity@131774fe]" started-at="2022-06-12T01:12:34 PDT" name="tearDown" finished-at="2022-06-12T01:12:34 PDT" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.automation.CreateOpportunity -->
+      <class name="com.salesforce.automation.UserMenuDropDown">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:07:46 PDT" name="setup" finished-at="2022-06-12T01:07:48 PDT" duration-ms="1546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.UserMenuDropDown.DevelopersConsole() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupUserMenu()[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:07:48 PDT" name="setupUserMenu" finished-at="2022-06-12T01:07:51 PDT" duration-ms="3649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupUserMenu -->
+        <test-method signature="DevelopersConsole()[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:07:51 PDT" name="DevelopersConsole" finished-at="2022-06-12T01:07:51 PDT" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DevelopersConsole -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:07:51 PDT" name="tearDown" finished-at="2022-06-12T01:07:52 PDT" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:07:52 PDT" name="setup" finished-at="2022-06-12T01:07:53 PDT" duration-ms="1547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.UserMenuDropDown.LogoutUserMenu() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupUserMenu()[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:07:53 PDT" name="setupUserMenu" finished-at="2022-06-12T01:07:57 PDT" duration-ms="3780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupUserMenu -->
+        <test-method signature="LogoutUserMenu()[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:07:57 PDT" name="LogoutUserMenu" finished-at="2022-06-12T01:07:57 PDT" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutUserMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:07:57 PDT" name="tearDown" finished-at="2022-06-12T01:07:57 PDT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:07:57 PDT" name="setup" finished-at="2022-06-12T01:07:59 PDT" duration-ms="1613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.UserMenuDropDown.MyProfile() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupUserMenu()[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:07:59 PDT" name="setupUserMenu" finished-at="2022-06-12T01:08:03 PDT" duration-ms="3928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupUserMenu -->
+        <test-method signature="MyProfile()[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:08:03 PDT" name="MyProfile" finished-at="2022-06-12T01:09:03 PDT" duration-ms="60420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyProfile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:09:03 PDT" name="tearDown" finished-at="2022-06-12T01:09:04 PDT" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:09:04 PDT" name="setup" finished-at="2022-06-12T01:09:05 PDT" duration-ms="1694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.UserMenuDropDown.MySettings() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupUserMenu()[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:09:05 PDT" name="setupUserMenu" finished-at="2022-06-12T01:09:10 PDT" duration-ms="4633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupUserMenu -->
+        <test-method signature="MySettings()[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:09:10 PDT" name="MySettings" finished-at="2022-06-12T01:09:14 PDT" duration-ms="3910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MySettings -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:09:14 PDT" name="tearDown" finished-at="2022-06-12T01:09:14 PDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:09:14 PDT" name="setup" finished-at="2022-06-12T01:09:16 PDT" duration-ms="1670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.salesforce.automation.UserMenuDropDown.UserMenu() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupUserMenu()[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:09:16 PDT" name="setupUserMenu" finished-at="2022-06-12T01:09:19 PDT" duration-ms="3793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupUserMenu -->
+        <test-method signature="UserMenu()[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:09:19 PDT" name="UserMenu" finished-at="2022-06-12T01:09:19 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.automation.UserMenuDropDown@16293aa2]" started-at="2022-06-12T01:09:19 PDT" name="tearDown" finished-at="2022-06-12T01:09:20 PDT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.automation.UserMenuDropDown -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
